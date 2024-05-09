@@ -4,7 +4,7 @@ import './styles/index.css'
 import "./styles/fonts.css"
 
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
-import { ThemeProvider } from '@emotion/react'
+import { ThemeProvider } from '@mui/material'
 import theme from './mui/theme.js'
  
  const client = new ApolloClient({
